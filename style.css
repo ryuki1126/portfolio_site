@@ -1,0 +1,96 @@
+.header-color {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.top-img {
+    height: 1000px;
+    background-image: url(img/pc_cat.jpg);
+    background-size: cover;
+}
+
+.top-message {
+    padding: 500px 0 402px 0;
+    text-align: center  ;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.html {
+    transition: 0.3s;
+}
+
+.css {
+    transition: 0.3s;
+}
+
+.javascript {
+    transition: 0.3s;
+}
+
+.node {
+    transition: 0.3s;
+}
+
+.python {
+    transition: 0.3s;
+}
+
+.django {
+    transition: 0.3s;
+}
+
+.ruby {
+    transition: 0.3s;
+}
+
+.rails {
+    transition: 0.3s;
+}
+
+.mysql {
+    transition: 0.3s;
+}
+
+.html:hover {
+    color: tomato;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.css:hover {
+    color: rgb(0, 89, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.javascript:hover {
+    color: darkorange;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.node:hover {
+    color: lime;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.python:hover {
+    color: springgreen;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.django:hover {
+    color: forestgreen;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ruby:hover {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rails:hover {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mysql:hover {
+    color: royalblue;
+    background-color: rgba(0, 0, 0, 0.7);
+}
