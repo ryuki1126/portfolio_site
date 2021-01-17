@@ -14,6 +14,44 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.btn-origin {
+    background:orange;
+    color:#fff;
+    border:none;
+    position:relative;
+    padding:10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+.btn-origin:hover{
+    background:#fff;
+    color:orange;
+  }
+
+.btn-origin:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: orange;
+    transition:400ms ease all;
+  }
+
+.btn-origin:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+
+.btn-origin:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
 .html {
     transition: 0.3s;
 }
